@@ -1,0 +1,63 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    background-color: rgb(27, 179, 90);
+    height: 50px;
+}
+.nav .logo a{
+    float: left;
+    color: rgb(200, 245, 206);
+    margin: 20px 50px;
+    font-size: large;
+    text-decoration: none;
+    cursor: crosshair;
+}
+.nav .courses{
+    margin: auto;
+    font-size: large;
+}
+.nav .login{
+    float: right;
+}
+.nav .login button{
+    margin: 10px 50px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: medium;
+    background-color: rgb(200, 245, 206);
+}
+.nav .login button:hover{
+    background: white;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+.main-container .left{
+    background-color: rgb(223, 222, 222);
+    width: 20%;
+    height: 420px;
+}
+.main-container .right{
+    width: 80%;
+    position: relative;
+}
+.main-container .right .main{
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+}
+.main-container .right .footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(223, 222, 222);
+    height: 20%;
+}
