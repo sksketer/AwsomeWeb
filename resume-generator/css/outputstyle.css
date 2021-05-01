@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(168, 245, 219);
+    background-repeat: no-repeat;
+}
+.border{
+    border: 2px solid black;
+    height: auto;
+    background-color: rgb(184, 202, 250);
+}
+.image{
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid black ;
+}
+
+.image img{
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 10%;
+    border: 0.5px solid black;
+    border-radius: 50%;
+}
+h2, h4{
+    font-weight: lighter;
+}
+.bio{
+    
+}
+.bio p{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+.bio h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 18px;
+}
+.bio h2 img{
+    width: 18px;
+}
+.intro{margin: 0 0 0 30px;}.intro h2{ }.intro p{  }
+.about{margin: 0 30px 0 0; text-align: right;}.about p img{ width: 15px;}.about p{ margin:3px 0 -1px 0;}
+#homeicon{width: 20px;}
+.border hr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    color: black;
+}
+.border .center-heading{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -5px 0 -5px 0;
+    
+}
+.skill{
+    display: flex;
+    justify-content: left;
+    margin: 0 0 0 100px;
+}
+#html-progress{
+width: 100%;
+background-color: #ffffff00;
+border-radius: 50px;
+}
+#html-bar{
+width: 85%;
+height: 10px;
+background-color: rgb(27, 159, 247);;
+border-radius: 50px;
+text-align: center;
+line-height: 30px;
+color: white;
+margin: 30px 50px 10px 30px;
+}
+.html-progress{
+display: flex;
+flex-direction: row;
+}
+.text{
+margin: 30px 10px 10px 10px;
+}
+.html-percentage, .css-percentage, .js-percentage, .php-percentage{
+margin: 28px 25px 10px 50px;
+}
+.css-progress{
+display: flex;
+flex-direction: row;
+}
+#css-bar{
+width: 55%;
+height: 10px;
+background-color: rgb(27, 159, 247);;
+border-radius: 50px;
+text-align: center;
+line-height: 30px;
+color: rgb(226, 66, 66);
+margin: 30px 50px 10px 50px;
+}
+.javascript-progress{
+display: flex;
+flex-direction: row;
+}
+#js-bar{
+width: 10%;
+height: 10px;
+background-color: rgb(27, 159, 247);;
+border-radius: 50px;
+text-align: center;
+line-height: 30px;
+color: white;
+margin: 30px 50px 10px 65px;
+}
+.php-progress{
+display: flex;
+flex-direction: row;
+}
+#php-bar{
+width: 40%;
+height: 10px;
+background-color: rgb(27, 159, 247);;
+border-radius: 50px;
+text-align: center;
+line-height: 30px;
+color: white;
+margin: 30px 50px 10px 50px;
+}
+.java-progress{
+display: flex;
+flex-direction: row;
+}
+#java-bar{
+width: 55%;
+height: 10px;
+background-color: rgb(27, 159, 247);;
+border-radius: 50px;
+text-align: center;
+line-height: 30px;
+color: white;
+margin: 30px 50px 10px 50px;
+}
+.project, .achievements{
+text-align: center;
+}
+.project h2, .achievements h2{
+margin: 1px 0 1px 0;
+}
+.project h4, .achievements h4{
+margin: 1px 0 20px 0;    
+font-weight: lighter;
+}
