@@ -1,0 +1,53 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    width: 60%;
+    height: 30rem;
+    box-shadow: 0px 0px 25px rgb(148, 146, 146);
+    background-color: rgb(211, 197, 197);
+    border-radius: 22px;
+    position: relative;
+}
+.container:hover .clip {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.clip {
+    width: 100%;
+    height: inherit;
+    border-radius: 22px;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    position: absolute;
+    transition: all 0.3s linear;
+}
+.container .clip:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.img1 {
+    background-image: url(https://images.pexels.com/photos/1898555/pexels-photo-1898555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: left;
+    clip-path: polygon(0 0, 25% 0, 40% 100%, 0% 100%);
+}
+
+.img2 {
+    background-image: url(https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    clip-path: polygon(25% 0, 75% 0, 61% 100%, 39% 100%);
+
+}
+
+.img3 {
+    background-position: right;
+    background-image: url(https://images.pexels.com/photos/1498836/pexels-photo-1498836.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    clip-path: polygon(75% 0, 100% 0, 100% 100%, 60% 100%);
+}
